@@ -40,6 +40,10 @@ class Order
         }
     }
 
+    /**
+     * Saves the order to the db.
+     * If no order already exists with this id, create a new one.
+     */
     public function save()
     {
         global $conn;
@@ -56,6 +60,9 @@ class Order
         return $this->id;
     }
 
+    /**
+     * Generate a random order id.
+     */
     private static function gen_uid($l=3){
         return substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyz"), 0, $l);
     }
