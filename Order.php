@@ -1,5 +1,6 @@
 <?php
 require_once("OrderStatus.php");
+require_once("Cart.php");
 require_once("db.php");
 
 /**
@@ -28,6 +29,10 @@ class Order
         if (ISSET($_SESSION["order_id"]))
         {
             // A previous order exist in the session, we return it.
+            $id = $_SESSION["order_id"];
+            $order = new Order($id, "");
+            $order->load_order();
+            return $order;
         }
         else
         {
@@ -47,12 +52,26 @@ class Order
     public function save()
     {
         global $conn;
-        $sql = "INSERT INTO `Orders` (`id`, `order_status`, `cart`) values ('$this->id', '$this->status', '') ON DUPLICATE KEY UPDATE `id` = '$this->id';";
+        $sql = "INSERT INTO `Orders` (`id`, `order_status`, `cart`) values ('$this->id', '$this->status', '{$this->cart->serialize()}') ON DUPLICATE KEY UPDATE `id` = '$this->id', `cart` = '{$this->cart->serialize()}';";
         $conn->select_db("mcdo");
         if ($conn->query($sql) !== True)
         {
             die("Cannot update: $conn->error");
         }
+    }
+
+    /**
+     * Load an order from the db.
+     */
+    public function load_order()
+    {
+        global $conn;
+        $conn->select_db("mcdo");
+        $sql = "SELECT * FROM `Orders` WHERE `id` = '$this->id'";
+        $result = $conn->query($sql);
+        $result = $result->fetch_row();
+        $this->status = $result[1];
+        $this->cart = new Cart($result[2]);
     }
 
     public function get_id()
@@ -65,6 +84,11 @@ class Order
      */
     private static function gen_uid($l=3){
         return substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyz"), 0, $l);
+    }
+
+    public function get_cart()
+    {
+        return $this->cart;
     }
 }
 ?>
