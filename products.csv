@@ -1,0 +1,41 @@
+1,Burger,Big Mac,Burger boeuf,"4,6",https://media.mcdonalds.fr/media/ff/62/d1/ff62d1acc3e68417ad9dd72e57257217e3e93f5d?auto=webp&width=768&disable=upscale
+2,Burger,McChicken,Burger poulet,"4,1",https://media.mcdonalds.fr/media/e9/91/14/e99114661ecbf27120accfa0792d2644ac33812e?auto=webp&width=768&disable=upscale
+3,Burger,Beef BBQ,Burger boeuf,"6,5",https://media.mcdonalds.fr/media/f1/15/2f/f1152f6847238ddefa58623af3f346c6d75a233a?auto=webp&width=768&disable=upscale
+4,Burger,Double Cheese,Burger boeuf,"3,7",https://media.mcdonalds.fr/media/31/41/8c/31418c063646fed584db8fa7e4e1f6a1314f1702?auto=webp&width=768&disable=upscale
+5,Burger,Big Tasty,Burger boeuf,"5,9",https://media.mcdonalds.fr/media/ae/51/30/ae513004594cb56ee9ade2fdebc98794d3f24376?auto=webp&width=768&disable=upscale
+6,Burger,Chicken Big Tasty,Burger poulet,"5,9",https://media.mcdonalds.fr/media/7d/04/74/7d0474a3a8f6d7b461a6436d088843c8dd8d63e3?auto=webp&width=768&disable=upscale
+7,Burger,Double Cheese Bacon,Burger boeuf,4,https://media.mcdonalds.fr/media/44/ca/f6/44caf69311c128ec28e083f8dea71da1fe8e626b?auto=webp&width=768&disable=upscale
+8,Burger,Triple Cheeseburger,Burger boeuf,"4,7",https://media.mcdonalds.fr/media/94/c3/d0/94c3d0d9662007b5ee84b1bf5c3b645dce20ba86?auto=webp&width=768&disable=upscale
+9,Burger,Filet-O-Fish,Burger poisson,"3,8",https://media.mcdonalds.fr/media/d6/b5/9e/d6b59eb5b487d149aebe07087f4658c17133758e?auto=webp&width=768&disable=upscale
+10,Burger,4 McNuggets,Nuggets de poulet,"3,75",https://media.mcdonalds.fr/media/0d/d2/84/0dd284f8304063cef6febf3d366a0f2fe05ac0f4?auto=webp&width=768&disable=upscale
+11,Burger,6 McNuggets,Nuggets de poulet,"4,6",https://media.mcdonalds.fr/media/70/23/96/70239619263e85c5765f79976788845688e12010?auto=webp&width=768&disable=upscale
+12,Burger,9 McNuggets,Nuggets de poulet,"5,95",https://media.mcdonalds.fr/media/72/f2/16/72f21641c5c00c011a04611197641e6ad6ba172e?auto=webp&width=768&disable=upscale
+13,Burger,Croque Mcdo,Croque Monsieur,"2,5",https://media.mcdonalds.fr/media/cb/be/4e/cbbe4ea78b400d9b6a8f16fba727d8914885ddf2?auto=webp&width=768&disable=upscale
+14,Burger,McWrap Poulet,Wrap,"5,3",https://media.mcdonalds.fr/media/3d/5c/a9/3d5ca9fc85785b5550301ec8b1acf0bb540bc639?auto=webp&width=768&disable=upscale
+15,Burger,McWrap Boeuf,Wrap,"5,3",https://media.mcdonalds.fr/media/aa/a2/77/aaa277864899fd8d46f08bac5aa5df54f1f0753e85147da5ccc07997671334a7?auto=webp&width=768&disable=upscale
+16,Burger,McWrap Veggie,Wrap,"5,3",https://media.mcdonalds.fr/media/cb/2b/ad/cb2bada15980a23d2111503cde0314e27d0399930e6d5ca3d4263fe95c1f84d7?auto=webp&width=768&disable=upscale
+17,Burger,McFirst Poulet,Burger poulet,"3,5",https://media.mcdonalds.fr/media/04/2f/fb/042ffb231744633e654b0bc9b1bc399301de266c?auto=webp&width=768&disable=upscale
+18,Burger,Cheeseburger,Burger boeuf,"2,65",https://media.mcdonalds.fr/media/d9/5e/f9/d95ef909fe65dd555f1638432509c39dbb54f215?auto=webp&width=768&disable=upscale
+19,Burger,McFirst Poisson,Burger poisson,"3,5",https://media.mcdonalds.fr/media/8f/c8/6d/8fc86d49ca464ce8393bd311fa4de3c9b06737c1?auto=webp&width=768&disable=upscale
+20,Burger,McFirst Boeuf,Burger boeuf,"3,5",https://media.mcdonalds.fr/media/2f/52/ec/2f52ec42ed42058bdaee811fc00ea2cb6c526bb4?auto=webp&width=768&disable=upscale
+21,Side,Grandes Frites,Frites,"3,5",https://media.mcdonalds.fr/media/22/93/98/229398a60911f348a3cc570db7a6e767f9537b2e?auto=webp&width=768&disable=upscale
+22,Side,Grandes Potatoes Deluxe,Patates,"3,5",https://media.mcdonalds.fr/media/0e/02/33/0e0233090b2cac4863daae7cb4f379363c452695?auto=webp&width=768&disable=upscale
+23,Side,Moyennes Frites,Frites,"3,2",https://media.mcdonalds.fr/media/b3/a5/68/b3a568b9626da3568dd9dca22743f249d6eedadd?auto=webp&width=768&disable=upscale
+24,Side,Moyennes Potatoes Deluxe,Patates,"3,2",https://media.mcdonalds.fr/media/65/60/9c/65609c7468bfbbcec0745f6912875595718114d4?auto=webp&width=768&disable=upscale
+25,Side,Petites Frites,Frites,"1,55",https://media.mcdonalds.fr/media/a8/1b/85/a81b859b1ffbd009ec70943ad90fad4698955a0f?auto=webp&width=768&disable=upscale
+26,Side,P'tite Salade,Salade,"2,5",https://media.mcdonalds.fr/media/c4/00/f0/c400f09a61e2e723c0f0a843e75683e0be8a177982cd42b94555c2264e5d7686?auto=webp&width=768&disable=upscale
+27,Beverage,Eau,Eau,"2,5",https://media.mcdonalds.fr/media/a3/ac/dc/a3acdcb9fc9cd34227b137b29b2644eb01656531?auto=webp&width=768&disable=upscale
+28,Beverage,Coca-Cola Zéro,Soda,"2,9",https://media.mcdonalds.fr/media/11/7d/dd/117dddd9ca9f643d853b176cf513200456947dee9290c3b24cf27b367a90e61f?auto=webp&width=768&disable=upscale
+29,Beverage,Coca-Cola,Soda,"2,9",https://media.mcdonalds.fr/media/e5/56/4b/e5564be2e57eb6e8999e7dce4c79e548b6c865b175c8aaa103c8f06df8d08af0?auto=webp&width=768&disable=upscale
+30,Beverage,Sprite,Soda,"2,9",https://media.mcdonalds.fr/media/85/6e/7a/856e7aa038d35377e93efa127bb0fb3721127240?auto=webp&width=768&disable=upscale
+31,Beverage,Fanta,Soda,"2,9",https://media.mcdonalds.fr/media/b1/77/e8/b177e874fb6f2a612c7c226a59f40c0588d64219?auto=webp&width=768&disable=upscale
+32,Beverage,Lipton Ice Tea,Soda,"2,9",https://media.mcdonalds.fr/media/e7/9c/aa/e79caaa7df27a6752630fd9254767c15d995f355?auto=webp&width=768&disable=upscale
+33,Beverage,Minute Maid Orange,Jus,"2,9",https://media.mcdonalds.fr/media/6e/9e/ad/6e9ead1f6100442d2ff15ac51ff9d537e8f471c4?auto=webp&width=768&disable=upscale
+34,Desert,McFlurry,Glace,"3,8",https://media.mcdonalds.fr/media/69/6d/37/696d37a34729ecf215337e3938e2fe0fe119e2ec41989441502c8854486d36d2?auto=webp&width=768&disable=upscale
+35,Desert,Sundae,Glace,"3,05",https://media.mcdonalds.fr/media/e0/86/d8/e086d8c0eb068f4393e406d320a31905afbb4436?auto=webp&width=768&disable=upscale
+36,Desert,P'tit Glacé Vanille,Glace,"1,65",https://media.mcdonalds.fr/media/bb/51/bf/bb51bf5e4e9ae5f9db3567fc6319be54420940c7?auto=webp&width=768&disable=upscale
+37,Desert,P'tit Glacé Fraise,Glace,"1,65",https://media.mcdonalds.fr/media/72/50/cf/7250cf9db24ae823338d151b5080e0180f7e5189?auto=webp&width=768&disable=upscale
+38,Desert,P'tite Pomme,Fruit,"1,25",https://media.mcdonalds.fr/media/f5/db/e1/f5dbe1ed38f9294f0ee55f31e01065db57404d10?auto=webp&width=768&disable=upscale
+39,Desert,P'tit Ananas,Fruit,"1,5",https://media.mcdonalds.fr/media/f1/27/73/f1277308db75a9202406bbef6f0f30bb4158cd59ac559b3ab85149f5aaa7f41c?auto=webp&width=768&disable=upscale
+40,Desert,Bio à Boire,Yaourt à boire,"1,95",https://media.mcdonalds.fr/media/bd/ca/22/bdca22374a8f631094515b3b4ba093f3e52af3f4b82cd6002a6d8e06938de18c?auto=webp&width=768&disable=upscale
+41,Desert,Berlingo Fruits,Compote,"1,6",https://media.mcdonalds.fr/media/3b/80/98/3b809831612bb531cae8f0ce11ee686caba8ef2456e1a4508ce7e7ac7ec4dae8?auto=webp&width=768&disable=upscale
