@@ -7,11 +7,11 @@ include_once("db.php");
 $sql = "CREATE DATABASE mcdo";
 if ($conn->query($sql) === TRUE)
 {
-  echo "Database created successfully";
+  echo "Database created successfully<br />";
 }
 else
 {
-  echo "Error creating database: " . $conn->error;
+  echo "Error creating database: " . $conn->error . "<br />";
 }
 $conn->select_db("mcdo");
 
@@ -26,11 +26,11 @@ $sql = "CREATE TABLE Orders (
     )"; 
 if ($conn->query($sql) === TRUE)
 {
-    echo "Table created successfully";
+    echo "Table created successfully<br />";
 }
 else
 {
-    echo "Error creating table: " . $conn->error;
+    echo "Error creating table: " . $conn->error . "<br />";
 }
 
 /**
@@ -47,11 +47,11 @@ $sql = "CREATE TABLE Products (
   )"; 
 if ($conn->query($sql) === TRUE)
 {
-  echo "Table created successfully";
+  echo "Table created successfully<br />";
 }
 else
 {
-  echo "Error creating table: " . $conn->error;
+  echo "Error creating table: " . $conn->error . "<br />";
 }
 
 /**
