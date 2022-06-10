@@ -35,6 +35,7 @@ if (ISSET($_GET["cart_update"]))
 <body>
 
     <?php
+    echo "<p>Total Price is: {$order->get_cart()->get_total()}</p>";
     foreach ($products as $product)
         echo "<div class=\"item\">
             <img src=\"{$product->get_image_url()}\" />

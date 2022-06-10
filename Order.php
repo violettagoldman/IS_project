@@ -4,7 +4,7 @@ require_once("Cart.php");
 require_once("db.php");
 
 /**
-    Order class stores a cart related to an order, its status and its id
+* Order class stores a cart related to an order, its status and its id
 */
 class Order
 {
@@ -16,6 +16,7 @@ class Order
     {
         $this->id = $id;
         $this->status = $status;
+        $this->cart = new Cart("");
     }
 
     /**
@@ -70,6 +71,12 @@ class Order
         $sql = "SELECT * FROM `Orders` WHERE `id` = '$this->id'";
         $result = $conn->query($sql);
         $result = $result->fetch_row();
+        if ($result == null)
+        {
+            session_destroy();
+            header('Location: /');
+            exit();
+        }
         $this->status = $result[1];
         $this->cart = new Cart($result[2]);
     }

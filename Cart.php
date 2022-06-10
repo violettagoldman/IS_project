@@ -43,6 +43,10 @@ class Cart
         }
     }
 
+    /**
+     * Return the item with given item id.
+     * If the item is not in the cart, then create a new item with 0 quantity.
+     */
     public function get_item($item_id)
     {
         foreach ($this->items as $item)
@@ -53,6 +57,19 @@ class Cart
         $new_item = new Item($item_id, 0);
         $this->items[] = $new_item;
         return $new_item;
+    }
+
+    /**
+     * Return the total sum of the chosen products.
+     */
+    public function get_total()
+    {
+        $sum = 0;
+        foreach ($this->items as $item)
+        {
+            $sum += $item->get_price() * $item->get_quantity();
+        }
+        return $sum;
     }
 
 }
