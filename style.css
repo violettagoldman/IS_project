@@ -8,11 +8,13 @@
   box-sizing: border-box;
 }
 
+/* Style body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
+/* Set background style */
 #background {
   background: url(https://media-cdn.tripadvisor.com/media/photo-s/18/20/62/8d/papy-s-fast-food.jpg);
   background-repeat: repeat-x;
@@ -26,6 +28,12 @@ body {
   padding : 100px;
 }
 
+/* Style title 4 */
+h4 {
+  margin: 0;
+}
+
+/* Style navigation bar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,10 +44,6 @@ ul {
   position: absolute;
   height: 200%;
   overflow: auto;
-}
-
-h4 {
-  margin: 0;
 }
 
 li a {
@@ -59,7 +63,7 @@ li a:hover:not(.active) {
   color: white;
 }
 
-/* Float four columns side by side */
+/* Float columns side by side */
 .column {
   float: left;
   width: 25%;
@@ -75,19 +79,12 @@ li a:hover:not(.active) {
   clear: both;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display-direction: column;
-    margin-bottom: 20px;
-  }
-}
-
+/* Style the counter cards */
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 2px 16px;
 }
 
 /* Style the counter cards */
@@ -105,19 +102,18 @@ li a:hover:not(.active) {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Style product images */
 img {
   border-radius: 5px 5px 0 0;
 }
 
+/* Style price */
 .price {
   color: #136320;
   font-size: 18px;
 }
 
-.container {
-  padding: 2px 16px;
-}
-
+/* Style button "+" */
 .button {
   background-color: #4CAF50;
   border: none;
@@ -135,12 +131,9 @@ img {
   box-shadow: 0 8px 16px 0 #4CAF50;
 }
 
-.button2:hover {
-  box-shadow: 0 8px 16px 0 #f44336;
-}
-
+/* Style button "-" */
 .button2 {
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -150,5 +143,8 @@ img {
   font-size: 14px;
   margin: 4px 2px;
   cursor: pointer;
-
 } 
+
+.button2:hover {
+  box-shadow: 0 8px 16px 0 #f44336;
+}
