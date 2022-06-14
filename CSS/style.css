@@ -114,7 +114,7 @@ img {
 }
 
 /* Style button "+" */
-.button {
+.buttonPlus {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -127,12 +127,12 @@ img {
   cursor: pointer;
 }
 
-.button:hover {
+.buttonPlus:hover {
   box-shadow: 0 8px 16px 0 #4CAF50;
 }
 
 /* Style button "-" */
-.button2 {
+.buttonMinus {
   background-color: #f44336;
   border: none;
   color: white;
@@ -145,6 +145,6 @@ img {
   cursor: pointer;
 } 
 
-.button2:hover {
+.buttonMinus:hover {
   box-shadow: 0 8px 16px 0 #f44336;
 }
