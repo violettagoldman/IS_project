@@ -44,7 +44,11 @@ if (ISSET($_GET["reset"]))
 <body>
 <ul>
  <li><a class='active' href='/'>🍟 Produits</a></li>
-  <li><a href='done.php'>✅ Valider</a></li>
+ <?php
+ if ($order->get_cart()->get_total() != 0) {
+    echo "<li><a href='done.php'>✅ Valider</a></li>";
+ }
+  ?>
  </ul>
  
  <div id='background'>
@@ -61,7 +65,7 @@ if (ISSET($_GET["reset"]))
   <p>Une fois satisfait.e de votre panier, vous pouvez <b>valider</b> votre commande 🙂.</p>
 
 <?php
-  echo "<p>Total Price is: {$order->get_cart()->get_total()}€</p>"
+  echo "<p class='important'>Total Price is: {$order->get_cart()->get_total()}€</p>"
 ?>
 
   <div class='container'>

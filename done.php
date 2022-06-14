@@ -34,20 +34,20 @@ $products = Product::get_all_products();
 
   <p>Merci pour votre commande ! Nous vous préparons vos plats au plus vite pour une meilleure dégustation 🍔😋🍟</p>
 
-  <p class="order"> Allez à la caisse et payez : 
-    <span> <?php
+  <p> Allez à la caisse et payez : 
+    <span class="important"> <?php
        echo $order->get_cart()->get_total();
     ?>€</span>
   </p>
 
-  <p class="order"> Votre numéro de commande est le : 
-    <span> <?php
+  <p> Votre numéro de commande est le : 
+    <span class="important"> <?php
       echo $order->get_id();
     ?></span>
   </p>
   <p> 👋 A très bientôt !</p>
 
-  <a href="index.php?reset">Passer une nouvelle commande</a>
+  <a class="buttonPlus" href="index.php?reset">Passer une nouvelle commande</a>
 
 </div>
 

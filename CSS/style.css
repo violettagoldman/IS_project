@@ -113,6 +113,13 @@ img {
   font-size: 18px;
 }
 
+/* Style important informatino */
+.important {
+  color: #136320;
+  font-size: 24px;
+  font-weight: 900;
+}
+
 /* Style button "+" */
 .buttonPlus {
   background-color: #4CAF50;
